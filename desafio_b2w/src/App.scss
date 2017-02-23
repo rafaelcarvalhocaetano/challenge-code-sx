@@ -1,0 +1,256 @@
+//colors
+$black: #000;
+$color_puerto_rico_approx: #49c5b1;
+$white: #fff;
+$color_celeste_approx: #ccc;
+$color_silver_approx: #bebebe;
+
+//fonts
+$font_0: Segoe UI;
+$font_1: Tahoma;
+$font_2: Geneva;
+$font_3: Verdana;
+$font_4: sans-serif;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0 19.6% 0 24.5%;
+	background-color: $black;
+}
+#esqCor {
+	background-color: $color_puerto_rico_approx;
+	width: 43%;
+	margin: 0;
+	float: left;
+}
+#dirCor {
+	width: 50%;
+	margin: 0;
+	float: left;
+	background-color: $white;
+}
+#photo {
+	margin: 10% 0 0 53%;
+	width: 104px;
+	height: 105px;
+}
+#apreStyle {
+	figcaption {
+		margin: 0 0 0 38%;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 13pt;
+		font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+		color: $white;
+		font-weight: lighter;
+	}
+	p {
+		margin-left: 38%;
+		font-size: 8pt;
+		text-align: center;
+		font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+		color: $white;
+		font-weight: lighter;
+	}
+}
+#icone1 {
+	margin: 20% 0 0 30%;
+	width: 12px;
+	height: 15px;
+}
+#figcp {
+	background-color: $white;
+	margin: 5% 5% 0 42%;
+	width: 27px;
+	height: 27px;
+	border-radius: 3px 0 3px 0;
+	font-weight: lighter;
+	figcaption {
+		font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+		text-transform: uppercase;
+		color: $white;
+		font-weight: lighter;
+		font-size: 9.29pt;
+		margin-left: 150%;
+		margin-top: -70%;
+	}
+}
+#icone2 {
+	margin: 10% 0 0 10%;
+	width: 22px;
+	height: 22px;
+}
+#icone3 {
+	margin: 10% 0 0 13%;
+	width: 22px;
+	height: 22px;
+}
+#figskill {
+	background-color: $white;
+	margin: 5% 5% 0 42%;
+	width: 27px;
+	height: 27px;
+	border-radius: 3px 0 3px 0;
+	font-weight: lighter;
+	figcaption {
+		font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+		text-transform: uppercase;
+		color: $white;
+		font-weight: lighter;
+		font-size: 10pt;
+		margin-left: 150%;
+		margin-top: -90%;
+	}
+}
+#progBar {
+	margin: 5% 5% 0 42%;
+	color: $white;
+	font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+	text-transform: uppercase;
+	color: $white;
+	font-weight: lighter;
+	font-size: 8pt;
+}
+#it {
+	font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+	text-transform: uppercase;
+	color: $white;
+	font-weight: lighter;
+	font-size: 9.29pt;
+	margin-left: 55%;
+	margin-top: -6%;
+}
+#icone5 {
+	margin: 10% 0 0 16%;
+	width: 20px;
+	height: 20px;
+}
+#principal {
+	background-color: $white;
+	margin: 5% 5% 0 42%;
+	width: 27px;
+	height: 27px;
+	border-radius: 3px 0 3px 0;
+	font-weight: lighter;
+}
+#itCon {
+	font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+	text-transform: uppercase;
+	color: $white;
+	font-weight: lighter;
+	font-size: 9.29pt;
+	margin: -6% 0 5% 55%;
+}
+#list {
+	li {
+		list-style: none;
+		margin: 0 0 0 40%;
+		padding: 0;
+		font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+		text-transform: lowercase;
+		color: $white;
+		font-weight: lighter;
+		&:last-child {
+			margin: 0 0 4.2% 40%;
+		}
+	}
+	p {
+		font-size: 7pt;
+		margin: -11.5% 0 0 15%;
+	}
+	img {
+		margin: 2%;
+	}
+}
+#icone6 {
+	width: 15px;
+}
+#icone7 {
+	width: 15px;
+}
+#icone8 {
+	width: 15px;
+}
+#icone9 {
+	width: 15px;
+}
+#containnerEducation {
+	margin: 8% 0 0 5%;
+}
+#infoTitulo {
+	margin: -7% 0 0 14%;
+	font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+	text-transform: uppercase;
+	color: $color_puerto_rico_approx;
+	font-weight: lighter;
+}
+#iconeEducation {
+	margin: 10% 0 0 14%;
+	width: 20px;
+	height: 20px;
+}
+#listEduc {
+	margin: 0 0 0 2%;
+	background-color: $color_puerto_rico_approx;
+	width: 27px;
+	height: 27px;
+	border-radius: 3px 0 3px 0;
+}
+#data {
+	float: left;
+	margin: 1% 3% 0 0;
+	color: $color_celeste_approx;
+	text-align: center;
+	font-size: 7pt;
+	font-weight: lighter;
+}
+#listDados {
+	margin: 4% 10% 0 0;
+	font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+	font-size: 5pt;
+	font-weight: lighter;
+}
+#todo {
+	margin: 0 0 0 16%;
+	font-weight: lighter;
+	text-align: justify;
+	font-size: 6pt;
+	color: $color_silver_approx;
+}
+#dataexp {
+	float: left;
+	margin: 5% 3% 0 0;
+	color: $color_celeste_approx;
+	text-align: center;
+	font-size: 7pt;
+	font-weight: lighter;
+}
+#profList {
+	margin: 6% 0 0 2%;
+	font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+	text-transform: uppercase;
+	color: $black;
+	font-weight: lighter;
+	font-size: 6.19pt;
+}
+#todoaward {
+	font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+	text-transform: lowercase;
+	color: $color_silver_approx;
+	font-weight: lighter;
+	font-size: 7pt;
+	margin: 0 0 6% 16%;
+}
+#profStyle p {
+	line-height: 1.8;
+	margin: 3% 3% 0 42%;
+	text-align: justify;
+	font-size: 6pt;
+	text-transform: lowercase;
+	font-family: $font_1;
+	color: $white;
+	font-weight: lighter;
+}
